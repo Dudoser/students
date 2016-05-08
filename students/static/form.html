@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Сервіс Обліку Студентів</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<div class="container" >
+		<!-- Logo -->
+		<div class="col-xs-8">
+			<h1>Форма редагування Студента</h1>
+		</div>
+		
+		<!-- Start Main Page Content -->
+		<div class="row" id="content-columns">
+			<div class="col-xs-12" id="content-column">
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Ім'я*:</label>
+						<div class="col-sm-10">
+							<input  id="name" type="text" placeholder="Ім'я" name="name" title="подсказка" maxlength="10" /><br />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="name1" class="col-sm-2 control-label">По-батькові:</label>
+						<div class="col-sm-10">
+							<input id="name1" type="text" placeholder="По-батькові" name="name" title="подсказка" maxlength="10" /><br />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="name2" class="col-sm-2 control-label">Прізвище*:</label>
+						<div class="col-sm-10">
+							<input id="name2" type="text" placeholder="Прізвище" name="name" title="подсказка" maxlength="10" /><br />
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">№ Білету:</label>
+						<div class="col-sm-10">
+							<input type="nummber"  placeholder="№..."/><br />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="date" class="col-sm-2 control-label">Дата народження: </label>
+						<div class="col-sm-10">
+							<input type="date" id="date" name="date" placeholder="дата/мысяць/рік" /><br />
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Фото: </label>
+						<div class="col-sm-10">
+							<input type="file" /><br />
+						</div>
+					</div>
+					<div class="form-group">	
+						<label class="col-sm-2 control-label">група*:</label>
+						<div class="col-sm-10">
+							<select>
+								<option value="">КІКС - 1 </option>
+								<option value="">КІКС - 2 </option>
+								<option value="">КІКС - 3 </option>
+								<option value="">КІКС - 4 </option>
+								<option value="">АТЗ - 1 </option>
+								<option value="">АТЗ - 2 </option>
+								<option value="">АТЗ - 3 </option>
+								<option value="">АТЗ - 4 </option>
+								<option value="">ЕМ - 1 </option>
+								<option value="">ЕМ - 2 </option>
+								<option value="">ЕМ - 3 </option>
+								<option value="">ЕМ - 4 </option>
+								<option value="">ЗС - 1 </option>
+								<option value="">ЗС - 2 </option>
+								<option value="">ЗС - 3 </option>
+								<option value="">ЗС - 4 </option>
+								<option value="">Л - 1 </option>
+								<option value="">Л - 2 </option>
+								<option value="">Л - 3 </option>
+								<option value="">Л - 4 </option>
+								<option value="">В - 1 </option>
+								<option value="">В - 2 </option>
+								<option value="">В - 3 </option>
+								<option value="">В - 4 </option>
+							</select><br />
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">додаткові нотатки:</label>
+						<div class="col-sm-10">
+							<textarea placeholder="текст..." rows="5" cols="30" name="text"></textarea><br />
+							<button type="button" class="btn btn-primary">Зберегти</button>
+							<button type="reset" class="btn btn-Link">Скасувати</button>
+						</div>			
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
